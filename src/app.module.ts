@@ -14,7 +14,7 @@ import { ProductModule } from './product/product.module';
       database: 'micro_product',
       username: 'postgres',
       password: '4040',
-      entities: ['dist/**/*.entity.{ts,js}'],
+      autoLoadEntities: true,
       synchronize: true, // never true in production!
     }),
   ],
